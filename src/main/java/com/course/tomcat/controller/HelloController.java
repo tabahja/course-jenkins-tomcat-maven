@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping(value = {"", "/", "/now"})
     String hello() {
-        return "Now is " + LocalDateTime.now();
+        return "the Now is " + LocalDateTime.now();
     }
 
 }
